@@ -12,6 +12,8 @@
 		2C0418EB2273B97F00A9735E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0418E92273B97F00A9735E /* Main.storyboard */; };
 		2C0418ED2273B97F00A9735E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0418EC2273B97F00A9735E /* Assets.xcassets */; };
 		2C0418F02273B97F00A9735E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0418EE2273B97F00A9735E /* LaunchScreen.storyboard */; };
+		2CEC425C227B47BE00849DA0 /* SF-Compact-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CEC4259227B474100849DA0 /* SF-Compact-Display-Semibold.otf */; };
+		2CEC425D227B47CC00849DA0 /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2CEC425A227B474100849DA0 /* SF-Pro-Text-Medium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2C0418EC2273B97F00A9735E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C0418EF2273B97F00A9735E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C0418F12273B97F00A9735E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CEC4259227B474100849DA0 /* SF-Compact-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Semibold.otf"; sourceTree = "<group>"; };
+		2CEC425A227B474100849DA0 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		2C0418E42273B97F00A9735E /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				2CEC425B227B476700849DA0 /* Fonts */,
 				2C0418E52273B97F00A9735E /* AppDelegate.swift */,
 				2C0418E72273B97F00A9735E /* ViewController.swift */,
 				2C0418E92273B97F00A9735E /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				2C0418F12273B97F00A9735E /* Info.plist */,
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		2CEC425B227B476700849DA0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2CEC4259227B474100849DA0 /* SF-Compact-Display-Semibold.otf */,
+				2CEC425A227B474100849DA0 /* SF-Pro-Text-Medium.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +138,8 @@
 			files = (
 				2C0418F02273B97F00A9735E /* LaunchScreen.storyboard in Resources */,
 				2C0418ED2273B97F00A9735E /* Assets.xcassets in Resources */,
+				2CEC425C227B47BE00849DA0 /* SF-Compact-Display-Semibold.otf in Resources */,
+				2CEC425D227B47CC00849DA0 /* SF-Pro-Text-Medium.otf in Resources */,
 				2C0418EB2273B97F00A9735E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
